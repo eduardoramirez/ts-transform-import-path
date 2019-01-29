@@ -1,0 +1,25 @@
+{
+  "name": "ts-transform-import-path",
+  "version": "0.0.1",
+  "description": "Converts TS import paths that start at 'baseDir' to relative imports.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/eduardoramirez/ts-transform-import-path.git",
+  "author": "Eduardo Ramirez <eduardo@medium.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.18",
+    "jest": "^23.0.0",
+    "prettier": "^1.16.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "typescript": "^3.1.6"
+  }
+}

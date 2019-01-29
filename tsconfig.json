@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "stripInternal": true,
+    "noImplicitAny": true,
+    "outDir": "lib"
+  },
+  "exclude": ["node_modules", "**/__tests__", "lib"]
+}
